@@ -1,4 +1,13 @@
 Использование: 
+1. Клонировать репозиторий к себе.
 ```
-sudo ./pkg-audit.sh <имя_пакета>
+git clone https://github.com/ginnicute/app-cleaner && cd app-cleaner
+```
+2. Необходимо сделать файл исполняемым.
+```
+сhmod +x appclr.bash
+```
+3. Запустить проверку.
+```
+sudo ./appclr.bash <имя_пакета>
 ```
