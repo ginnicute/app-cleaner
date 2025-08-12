@@ -20,7 +20,7 @@ dpkg -l | grep -E "^rc\s+$PKG"
 
 # пакеты сироты которые можно убрать (dry‑run)
 echo -e "\n=== Возможные сироты (sudo apt-get autoremove --dry-run) ==="
-echo -e "\n!!! Данные пакеты можно удалить:"
+echo -e "\n Данные пакеты можно удалить:"
 sudo apt-get autoremove --dry-run | grep -v '^ '
 
 
