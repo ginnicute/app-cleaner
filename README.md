@@ -5,7 +5,7 @@ git clone https://github.com/ginnicute/app-cleaner && cd app-cleaner
 ```
 2. Необходимо сделать файл исполняемым.
 ```
-сhmod +x appclr.bash
+sudo chmod +x appclr.bash
 ```
 3. Запустить проверку.
 ```
